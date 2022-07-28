@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Abhishek Website</title>
+		<link rel="stylesheet" href="style.css">
+
+	</head>
+	<body>
+		<hr size="3" noshade>
+		<center>
+  <div class="container">
+    <form>
+      <div class="base">
+        <div class="enter"><h4>Age Calculater</h4></div>
+        <div class="block">
+          <p class="tittle">Date</p>
+          <input
+                 type="text"
+                 name="date"
+                 id="date"
+                 placeholder="dd"
+                 minlength="1"
+                 maxlength="2"
+            />
+          </div>
+        <div class="block">
+          <p class="tittle">Month</p>
+          <input
+                 type="text"
+                 name="month"
+                 id="month"
+                 placeholder="mm"
+                 required="required"
+                 minlength="1"
+                 maxlength="2"
+            />
+          </div>
+        <div class="block">
+          <p class="tittle">Year</p>
+          <input
+                 type="text"
+                 name="year"
+                 id="year"
+                 placeholder="yyyy"
+                 required="required"
+                 minlength="4"
+                 maxlength="4"
+            />
+          </div>
+        </div>
+      <div class="base">
+        <div class="enter">
+          <input
+                 type="button"
+                 name="submit"
+                 value="Submit"
+                 onclick="age()"
+                />
+          </div>
+        </div>
+      <div id="age"></div>
+      </form>
+    </div>
+		<script src="pp.js"></script>
+  </body>
+
+</center>
+<hr size="3" noshade>
+</html>
